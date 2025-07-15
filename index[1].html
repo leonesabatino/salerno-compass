@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salerno - Digital Twin Compass</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="salerno_logo.png" alt="Salerno Logo">
+  </header>
+  <div class="compass-container">
+    <img src="compass.svg" class="compass" id="compass" alt="Compass" />
+    <div class="labels">
+      <span class="north" onclick="rotateTo('N')">Health & Safety</span>
+      <span class="northeast" onclick="rotateTo('NE')">3D Constructability</span>
+      <span class="east" onclick="rotateTo('E')">4D Time Planning</span>
+      <span class="southeast" onclick="rotateTo('SE')">Resource Scheduling</span>
+      <span class="south" onclick="rotateTo('S')">5D Cost & Risk</span>
+      <span class="southwest" onclick="rotateTo('SW')">6D Sustainability</span>
+      <span class="west" onclick="rotateTo('W')">7D Operation</span>
+      <span class="northwest" onclick="rotateTo('NW')">Feedback & CI</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
